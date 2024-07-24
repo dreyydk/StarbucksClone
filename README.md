@@ -8,7 +8,7 @@ A recreation of the Starbucks landing page built entirely with Next.js and TypeS
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1265726143265243309/Mobile.png?ex=66a28ed4&is=66a13d54&hm=4d5a17cca6745e5c68d1d691fd7bbdf35f60344f536c1b55c60fe5806b081b88&)
+![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1265759094027976804/Mobile.png?ex=66a2ad84&is=66a15c04&hm=4b7614c086dcb72470668bb180d639c22dcbf991c9de9494a1d6a5578a13b1ac&)
 
 ## Technologies and Tools
 
