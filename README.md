@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Starbucks Recreation (Next.js)
 
-## Getting Started
+A recreation of the Starbucks landing page built entirely with Next.js and TypeScript. Still under development.
 
-First, run the development server:
+## Authors
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [@dreyydk](https://github.com/dreyydk)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1265726143265243309/Mobile.png?ex=66a28ed4&is=66a13d54&hm=4d5a17cca6745e5c68d1d691fd7bbdf35f60344f536c1b55c60fe5806b081b88&)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies and Tools
 
-## Learn More
+[![Technologies](https://skillicons.dev/icons?i=react,next,ts,git,vscode,github,vercel)](#)
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To view the project deployment, access this [link](https://www.starbucks.com).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Reference
 
-## Deploy on Vercel
+- [Official Starbucks Landing Page](https://www.starbucks.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are always welcome!
+
+If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
