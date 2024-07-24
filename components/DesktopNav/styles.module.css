@@ -1,0 +1,14 @@
+.container {
+  width: fit-content;
+  height: fit-content;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+  }
+}

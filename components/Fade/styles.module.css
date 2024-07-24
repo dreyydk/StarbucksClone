@@ -1,0 +1,13 @@
+.fade {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: var(--rgba06);
+  z-index: -2;
+  display: none;
+}
+
+.fade.active {
+  display: block;
+}

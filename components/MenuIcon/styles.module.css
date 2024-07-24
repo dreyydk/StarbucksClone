@@ -1,0 +1,32 @@
+.icon {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.line {
+  width: 20px;
+  height: 2px;
+  margin: 4px;
+  border-radius: 2px;
+  background-color: var(--rgba06);
+  transition: 0.3s;
+}
+
+.icon.active #line01 {
+  transform: rotate(-45deg) translate(0, 8px);
+}
+
+.icon.active #line02 {
+  opacity: 0;
+}
+
+.icon.active #line03 {
+  transform: rotate(45deg) translate(0, -9px);
+}
+
+@media (min-width: 1024px) {
+  .icon {
+    display: none;
+  }
+}

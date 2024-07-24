@@ -1,0 +1,23 @@
+.header {
+  width: 100vw;
+  height: fit-content;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 2px 2px var(--rgba01);
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 20px 80px;
+  }
+}

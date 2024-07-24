@@ -1,0 +1,16 @@
+.button {
+  margin: 15px 0px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-family: var(--font01);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
+  &:hover {
+    color: var(--green01);
+  }
+}
+
+.button span {
+  margin-left: 10px;
+}

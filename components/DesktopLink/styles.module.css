@@ -1,0 +1,19 @@
+.link {
+  text-decoration: none;
+  font-family: var(--font01);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--black);
+  margin-left: 40px;
+  display: none;
+  &:hover {
+    color: var(--green01);
+  }
+}
+
+@media (min-width: 1024px) {
+  .link {
+    display: block;
+  }
+}
