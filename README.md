@@ -16,7 +16,7 @@ A recreation of the Starbucks landing page built entirely with Next.js and TypeS
 
 ## Deploy
 
-To view the project deployment, access this [link](https://www.starbucks.com).
+To view the project deployment, access this [link](https://starbucks-nextjs-dreyydk.vercel.app).
 
 ## Reference
 
