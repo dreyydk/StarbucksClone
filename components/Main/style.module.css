@@ -1,11 +1,9 @@
 .main {
   width: 100vw;
   height: fit-content;
-  min-height: 100vh;
   display: flex;
-  position: fixed;
+  position: relative;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   z-index: -4;
 }

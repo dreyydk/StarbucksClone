@@ -12,7 +12,7 @@
 }
 
 .button.light {
-  background-color: var(--white);
+  background-color: var(--rgba00);
   color: var(--black);
   border-color: var(--black);
   &:hover {
@@ -26,5 +26,23 @@
   border-color: var(--white);
   &:hover {
     background-color: var(--rgba07);
+  }
+}
+
+.button.truelight {
+  background-color: var(--rgba00);
+  color: var(--white);
+  border-color: var(--white);
+  &:hover {
+    background-color: var(--rgba02);
+  }
+}
+
+.button.darkergreen {
+  background-color: var(--rgba00);
+  color: var(--darkergreen);
+  border-color: var(--darkergreen);
+  &:hover {
+    background-color: var(--rgba02);
   }
 }

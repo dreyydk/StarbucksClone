@@ -3,7 +3,12 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --green01: #006241;
+  --darkgreen: #006241;
+  --darkergreen: #1e3932;
+  --green: #97d8b1;
+  --lightgreen: #d3eae2;
+  --purple: #a3029a;
+  --rgba00: rgba(0, 0, 0, 0);
   --rgba01: rgba(0, 0, 0, 0.1);
   --rgba02: rgba(0, 0, 0, 0.2);
   --rgba06: rgba(0, 0, 0, 0.6);

@@ -2,6 +2,11 @@
 
 import BtnContainer from "@/components/BtnContainer";
 import Button from "@/components/Button";
+import Card from "@/components/Card";
+import CardContainer from "@/components/CardContainer";
+import CardImage from "@/components/CardImage";
+import CardText from "@/components/CardText";
+import CardTitle from "@/components/CardTitle";
 import DesktopLink from "@/components/DesktopLink";
 import DesktopNav from "@/components/DesktopNav";
 import Fade from "@/components/Fade";
@@ -81,54 +86,70 @@ export default function Home() {
       </Header>
       <Fade active={active} />
       <Main>
-        <h1
-          style={{
-            textAlign: "center",
-            fontFamily: "var(--font01)",
-          }}
-        >
-          Under development!
-        </h1>
-        <p
-          style={{
-            textAlign: "center",
-            margin: "20px",
-            fontFamily: "var(--font01)",
-          }}
-        >
-          This section of the site is still under development, keep an eye on
-          the repository for updates!
-        </p>
-        <a
-          href="https://github.com/dreyydk"
-          style={{
-            fontFamily: "var(--font01)",
-            textDecoration: "none",
-            color: "var(--black)",
-            fontSize: "18px",
-            fontWeight: 500,
-            marginBottom: "10px",
-          }}
-          target="_blank"
-        >
-          <i className="bi bi-github"></i>
-          <span style={{ marginLeft: "5px" }}>GitHub</span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/andreibacin"
-          style={{
-            fontFamily: "var(--font01)",
-            textDecoration: "none",
-            color: "var(--black)",
-            fontSize: "18px",
-            fontWeight: 500,
-            marginBottom: "10px",
-          }}
-          target="_blank"
-        >
-          <i className="bi bi-linkedin"></i>
-          <span style={{ marginLeft: "5px" }}>LinkedIn</span>
-        </a>
+        <Card preset="darkgreen">
+          <CardImage image="img01" />
+          <CardContainer>
+            <CardTitle>Our treat to you</CardTitle>
+            <CardText>
+              Join Starbucks® Rewards and savor our gift to you: a free drink
+              with qualifying purchase during your first week. Valid for
+              one-time use.*
+            </CardText>
+            <Button
+              href="https://www.starbucks.com/account/create"
+              preset="truelight"
+            >
+              Join now
+            </Button>
+          </CardContainer>
+        </Card>
+        <Card preset="purple">
+          <CardImage image="img02" />
+          <CardContainer>
+            <CardTitle>Sunny-day essentials</CardTitle>
+            <CardText>
+              Flavorful creations sure to brighten any summer day.
+            </CardText>
+            <Button
+              href="https://www.starbucks.com/menu/featured/"
+              preset="truelight"
+            >
+              Order now
+            </Button>
+          </CardContainer>
+        </Card>
+        <Card preset="lightgreen">
+          <CardImage image="img03" />
+          <CardContainer>
+            <CardTitle>Meet the Starbucks Pairings Menu</CardTitle>
+            <CardText>
+              Crave-worthy pairings including our new, best-ever iced coffee.
+              Restrictions apply.
+            </CardText>
+            <Button
+              href="https://www.starbucks.com/offers/pairings/"
+              preset="darkergreen"
+            >
+              Learn more
+            </Button>
+          </CardContainer>
+        </Card>
+        <Card preset="green">
+          <CardImage image="img04" />
+          <CardContainer>
+            <CardTitle>Personal cups for good</CardTitle>
+            <CardText>
+              Your choice is a positive and responsible one—because bringing
+              your clean reusable cup helps our planet.
+            </CardText>
+            <Button
+              href="https://stories.starbucks.com/press/2024/starbucks-becomes-first-national-coffee-retailer-to-accept-reusable-cups-for-drive-thru-and-mobile-orders/"
+              preset="darkergreen"
+            >
+              Learn more
+            </Button>
+          </CardContainer>
+        </Card>
       </Main>
     </>
   );

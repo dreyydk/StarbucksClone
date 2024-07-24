@@ -8,7 +8,7 @@
   margin-left: 40px;
   display: none;
   &:hover {
-    color: var(--green01);
+    color: var(--darkgreen);
   }
 }
 

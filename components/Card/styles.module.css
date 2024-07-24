@@ -1,0 +1,53 @@
+.card {
+  width: 100vw;
+  height: fit-content;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card.darkgreen {
+  background-color: var(--darkgreen);
+  color: var(--white);
+  font-family: var(--font01);
+  text-align: center;
+}
+
+.card.green {
+  background-color: var(--green);
+  color: var(--darkergreen);
+  font-family: var(--font01);
+  text-align: center;
+}
+
+.card.lightgreen {
+  background-color: var(--lightgreen);
+  color: var(--darkergreen);
+  font-family: var(--font01);
+  text-align: center;
+}
+
+.card.purple {
+  background-color: var(--purple);
+  color: var(--white);
+  font-family: var(--font01);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 1200px;
+  }
+  .card.darkgreen {
+    flex-direction: row;
+  }
+  .card.purple {
+    flex-direction: row-reverse;
+  }
+  .card.lightgreen {
+    flex-direction: row;
+  }
+  .card.green {
+    flex-direction: row-reverse;
+  }
+}
