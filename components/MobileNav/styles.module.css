@@ -3,11 +3,12 @@
   width: 90vw;
   height: 100vh;
   background-color: var(--white);
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   transform: translateX(100%);
   transition: 0.3s;
+  overflow-x: hidden;
 }
 
 .menu.active {
