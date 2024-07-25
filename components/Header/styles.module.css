@@ -1,6 +1,8 @@
 .header {
   width: 100vw;
   height: fit-content;
+  position: fixed;
+  top: 0;
   padding: 15px;
   display: flex;
   justify-content: space-between;
