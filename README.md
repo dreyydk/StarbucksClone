@@ -16,7 +16,7 @@ This project made me better understand how Next.js works. The biggest challenge 
 
 ## Deploy
 
-To view the project deployment, access this [link](https://www.starbucks.com).
+To view the project deployment, access this [link](https://starbucks-nextjs-dreyydk.vercel.app).
 
 ## Notes
 
