@@ -1,4 +1,4 @@
-.disclaimer {
+.notes {
   width: 80vw;
   font-family: var(--font01);
   font-size: 12px;
@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 768px) {
-  .disclaimer {
+  .notes {
     width: 40vw;
   }
 }

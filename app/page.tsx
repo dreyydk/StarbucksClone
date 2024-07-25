@@ -9,7 +9,7 @@ import CardText from "@/components/CardText";
 import CardTitle from "@/components/CardTitle";
 import DesktopLink from "@/components/DesktopLink";
 import DesktopNav from "@/components/DesktopNav";
-import Disclaimer from "@/components/Disclaimer";
+import Notes from "@/components/Notes";
 import Fade from "@/components/Fade";
 import FindStoreBtn from "@/components/FindStoreBtn";
 import Header from "@/components/Header";
@@ -151,7 +151,7 @@ export default function Home() {
             </Button>
           </CardContainer>
         </Card>
-        <Disclaimer>
+        <Notes>
           *Valid only for new Starbucks Rewards members for 7 days from sign up.
           Offer good at participating stores for a handcrafted menu-sized
           beverage with eligible purchase ($8 max value). Taxes not included.
@@ -159,7 +159,7 @@ export default function Home() {
           per member. Cannot be combined with other offers or discounts. Product
           availability varies by store. Excludes delivery services. Sign up from
           8/16/2024 - 9/16/2024 to be eligible.
-        </Disclaimer>
+        </Notes>
       </Main>
     </>
   );
