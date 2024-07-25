@@ -1,7 +1,7 @@
 .header {
   width: 100vw;
   height: fit-content;
-  position: fixed;
+  position: relative;
   top: 0;
   padding: 15px;
   display: flex;
