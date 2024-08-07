@@ -4,7 +4,7 @@ This project is a recreation of the Starbucks landing page developed entirely wi
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1265759094027976804/Mobile.png?ex=66a35644&is=66a204c4&hm=6a22b5ea9ddf6fb02b2251b4f9b926ca5de8cd74011ccb5786cb5b5caece454d&)
+![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1265759094027976804/Mobile.png?ex=66b479c4&is=66b32844&hm=c5b4cacc3cf881b956392e89074ef950d9c074da16222d31dc7cc2507a5a9ee6&)
 
 ## Technologies and Tools
 
@@ -16,7 +16,7 @@ This project made me better understand how Next.js works. The biggest challenge 
 
 ## Deploy
 
-To view the project deployment, access this [link](https://starbucks-nextjs-dreyydk.vercel.app).
+To view the project deploy, access this [link](https://starbucks-nextjs-dreyydk.vercel.app).
 
 ## Notes
 
