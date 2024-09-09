@@ -4,7 +4,7 @@ This project is a recreation of the Starbucks landing page developed entirely wi
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1265759094027976804/Mobile.png?ex=66b479c4&is=66b32844&hm=c5b4cacc3cf881b956392e89074ef950d9c074da16222d31dc7cc2507a5a9ee6&)
+![App Screenshot](https://cdn.discordapp.com/attachments/852993651008208949/1282659757517307956/Mobile.png?ex=66e0297c&is=66ded7fc&hm=4bc0f0db3032ffa35e9b4de65e5040e2c2e1a161c7211f8eff56f5c2fb7a6641&)
 
 ## Technologies and Tools
 
